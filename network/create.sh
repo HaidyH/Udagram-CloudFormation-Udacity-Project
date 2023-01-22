@@ -1,0 +1,1 @@
+ aws cloudformation create-stack --stack-name Udagramnetwork --template-body file://network.yml --parameters file://networkparameters.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
